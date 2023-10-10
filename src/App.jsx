@@ -38,7 +38,7 @@ function App() {
 </div>
 <div id="advice-generator">
   <button className='btn-click' onClick={handleButtonClick}>
-<img src="./images/icon-dice.svg" alt="dice icon" />
+<img src="./images/icon-dice.svg" alt="icon" />
 </button>
 </div>
 </>
