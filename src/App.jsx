@@ -1,5 +1,6 @@
 import './App.css'
 import rayas from "../images/pattern-divider-desktop.svg"
+import icon from "../images/icon-dice.svg"
 import React, { useState } from 'react';
 
 
@@ -38,7 +39,7 @@ function App() {
 </div>
 <div id="advice-generator">
   <button className='btn-click' onClick={handleButtonClick}>
-<img src="./images/icon-dice.svg" alt="icon" />
+<img src={icon} alt="icon" />
 </button>
 </div>
 </>
